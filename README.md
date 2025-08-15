@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/icon.png" alt="FitTrack Logo" width="120" height="120" />
+  <img src="./app/assets/icon.png" alt="FitTrack Logo" width="120" height="120" />
   
   # 🏋️‍♂️ FitTrack
   
@@ -80,14 +80,14 @@
 <table>
 <tr>
 <td align="center">
-  <img src="./screenshots/login-screen.jpg" width="250" alt="Login Screen" />
+  <img src="./app/screenshots/login-screen.jpg" width="250" alt="Login Screen" />
   <br />
   <strong>Welcome Back - Login</strong>
   <br />
   <em>Clean login interface with email/password fields</em>
 </td>
 <td align="center">
-  <img src="./screenshots/register-screen.jpg" width="250" alt="Signup Screen" />
+  <img src="./app/screenshots/register-screen.jpg" width="250" alt="Signup Screen" />
   <br />
   <strong>Create Account - Signup</strong>
   <br />
@@ -100,21 +100,21 @@
 <table>
 <tr>
 <td align="center">
-  <img src="./screenshots/home-screen.jpg" width="200" alt="Home Screen" />
+  <img src="./app/screenshots/home-screen.jpg" width="200" alt="Home Screen" />
   <br />
   <strong>🏠 Home Dashboard</strong>
   <br />
   <em>Daily workout recommendations and progress overview</em>
 </td>
 <td align="center">
-  <img src="./screenshots/routines-screen.jpg" width="200" alt="Routines Screen" />
+  <img src="./app/screenshots/routines-screen.jpg" width="200" alt="Routines Screen" />
   <br />
   <strong>🏃‍♂️ Workout Routines</strong>
   <br />
   <em>Browse and manage your workout routines</em>
 </td>
 <td align="center">
-  <img src="./screenshots/stats-screen.jpg" width="200" alt="Stats Screen" />
+  <img src="./app/screenshots/stats-screen.jpg" width="200" alt="Stats Screen" />
   <br />
   <strong>📊 Progress Analytics</strong>
   <br />
@@ -123,14 +123,14 @@
 </tr>
 <tr>
 <td align="center">
-  <img src="./screenshots/profile-screen.jpg" width="200" alt="Profile Screen" />
+  <img src="./app/screenshots/profile-screen.jpg" width="200" alt="Profile Screen" />
   <br />
   <strong>👤 User Profile</strong>
   <br />
   <em>Manage account settings and view achievements</em>
 </td>
 <td align="center">
-  <img src="./screenshots/create-routine.jpg" width="200" alt="Create Routine Screen" />
+  <img src="./app/screenshots/create-routine.jpg" width="200" alt="Create Routine Screen" />
   <br />
   <strong>✏️ Routine Builder</strong>
   <br />
