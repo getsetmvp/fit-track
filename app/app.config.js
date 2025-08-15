@@ -30,7 +30,7 @@ export default {
       supportsTablet: true,
     },
     android: {
-      package: "com.fittrack.app",
+      package: "com.getsetmvp.fittrack",
       adaptiveIcon: {
         foregroundImage: "./assets/icon.png",
         backgroundColor: "#3d82f6",
