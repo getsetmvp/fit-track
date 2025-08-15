@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { SOCIAL_LINKS } from '@/constants/social';
+import { SOCIAL_LINKS, CONTACT_LINKS, COMPANY_INFO } from '@/constants/social';
 
 const Footer: React.FC = () => {
   return (
@@ -58,9 +58,9 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-semibold mb-4">Links</h4>
             <ul className="space-y-2">
-              <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors cursor-pointer">Contact Us</Link></li>
-              <li><Link href="/privacy" className="text-gray-400 hover:text-white transition-colors cursor-pointer">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="text-gray-400 hover:text-white transition-colors cursor-pointer">Terms of Service</Link></li>
+              <li><a href={CONTACT_LINKS.calendly} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors cursor-pointer">Contact Us</a></li>
+              <li><Link href="/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors cursor-pointer">Privacy Policy</Link></li>
+              <li><Link href="/terms" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors cursor-pointer">Terms of Service</Link></li>
             </ul>
           </div>
         </div>
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; 2024 FitTrack. All rights reserved. Made with ❤️ for fitness enthusiasts.
+            &copy; 2024 {COMPANY_INFO.name}. All rights reserved. Made with ❤️ for fitness enthusiasts.
           </p>
         </div>
       </div>
