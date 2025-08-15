@@ -4,7 +4,7 @@ import "dotenv/config";
 export default {
   expo: {
     name: "FitTrack",
-    slug: "fittrack",
+    slug: "fit-track",
     version: "1.0.0",
     orientation: "portrait",
     icon: "./assets/icon.png",
@@ -22,10 +22,10 @@ export default {
       firebaseMessagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
       firebaseAppId: process.env.FIREBASE_APP_ID,
       eas: {
-        projectId: "dcaa5441-9dfc-4418-9a79-3d2ed96435ed",
+        projectId: "043b71f5-e0d7-4a6a-b985-e8b79f69eb99",
       },
     },
-    owner: "ibtesam121",
+    owner: "getsetmvp",
     ios: {
       supportsTablet: true,
     },
@@ -33,7 +33,7 @@ export default {
       package: "com.fittrack.app",
       adaptiveIcon: {
         foregroundImage: "./assets/icon.png",
-        backgroundColor: "#ffffff",
+        backgroundColor: "#3d82f6",
       },
     },
     web: {
